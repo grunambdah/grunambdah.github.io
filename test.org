@@ -1,0 +1,36 @@
+#+AUTHOR: Jedrek
+#+TITLE: blog
+#+OPTIONS: toc:nil
+
+* First level
+** Second level
+- first item
+- second item
+- third item
+** Tables
+#+CAPTION: This is the caption for the next table (or link)
+#+NAME:   tab:basic-data
+  
+|   |   |
+|   | - |
+| a | 5% |
+** Equations
+\begin{equation}
+	\int_0^8 2*x = ?
+\end{equation}
+     
+** Images
+
+#+CAPTION: This is the caption for the next figure link (or table)
+#+NAME:   fig:SED-HR4049
+[[./media/images/jedrus_converted.jpg]]
+
+
+** Source code   
+#+BEGIN_SRC emacs-lisp
+(defun org-xor (a b)
+"Exclusive or."
+(if a (not b) b))
+#+END_SRC
+     
+     

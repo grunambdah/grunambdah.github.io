@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>org-page</title>
+    <link>http://your.personal.site.com/</link>
+    <description>static site generator</description>
+    <pubDate>Tue, 21 Aug 2018 21:05:33 CEST</pubDate>
+    <lastBuildDate>Tue, 21 Aug 2018 21:05:33 CEST</lastBuildDate>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Org-page static site generator (https://github.com/kelvinh/org-page)</generator>
+    <item>
+      <title>blog</title>
+      <link>http://your.personal.site.com/blog/2018/08/21/blog/</link>
+      <description><![CDATA[<div>
+    <section id="wrapper">
+        <article class="post">
+            <header>
+                    <h1>blog</h1>
+            </header>
+            <br />
+            <section id="post-body">
+                
+<div id="outline-container-orgd1f3708" class="outline-2">
+<h2 id="orgd1f3708"><span class="section-number-2">1</span> First level</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org1092c5e" class="outline-3">
+<h3 id="org1092c5e"><span class="section-number-3">1.1</span> Second level</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li>first item</li>
+<li>second item</li>
+<li>third item</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org3a0fa88" class="outline-3">
+<h3 id="org3a0fa88"><span class="section-number-3">1.2</span> Tables</h3>
+<div class="outline-text-3" id="text-1-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">-</td>
+</tr>
+
+<tr>
+<td class="org-left">a</td>
+<td class="org-left">5%</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org8e0faae" class="outline-3">
+<h3 id="org8e0faae"><span class="section-number-3">1.3</span> Equations</h3>
+<div class="outline-text-3" id="text-1-3">
+\begin{equation}
+	\int_0^8 2*x = ?
+\end{equation}
+</div>
+</div>
+
+<div id="outline-container-org6c5617e" class="outline-3">
+<h3 id="org6c5617e"><span class="section-number-3">1.4</span> Images</h3>
+<div class="outline-text-3" id="text-1-4">
+
+<div id="org67b66b0" class="figure">
+<p><img src="/assets/blog/2018/08/21/blog/jedrus_converted.jpg" alt="jedrus_converted.jpg" />
+</p>
+<p><span class="figure-number">Figure 1: </span>This is the caption for the next figure link (or table)</p>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-org1f76b66" class="outline-3">
+<h3 id="org1f76b66"><span class="section-number-3">1.5</span> Source code</h3>
+<div class="outline-text-3" id="text-1-5">
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(defun org-xor (a b)
+"Exclusive or."
+(if a (not b) b))
+</pre>
+</div>
+</div>
+</div>
+</div>
+
+            </section>
+    </section>
+</div>
+]]></description>
+      <pubDate>2018-08-21</pubDate>
+      <guid>http://your.personal.site.com/blog/2018/08/21/blog/</guid>
+    </item>
+  </channel>
+</rss>
